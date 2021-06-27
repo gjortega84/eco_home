@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:logger/logger.dart';
-import '../logger.dart';
 
 class BaseViewModel extends ChangeNotifier {
   String _title;
