@@ -13,7 +13,10 @@ class BaseViewModel extends ChangeNotifier {
     String title,
   })  : _busy = busy,
       _title = title {
-    log = getLogger(title ?? this.runtimeType.toString());
+    log = Logger(
+  printer: PrettyPrinter(),
+);
+
   }
 
   bool get busy => this._busy;

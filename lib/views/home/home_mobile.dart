@@ -22,7 +22,6 @@ class _HomeMobile extends StatelessWidget {
             ),
             Text(
               '${viewModel.counter}',
-              style: Theme.of(context).textTheme.display1,
             ),
           ],
         ),

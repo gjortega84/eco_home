@@ -1,6 +1,8 @@
 import 'package:eco_home/views/home/home_view.dart';
 import 'package:flutter/material.dart';
 
+import 'views/home/home_view.dart';
+
 void main() {
   runApp(MyApp());
 }
