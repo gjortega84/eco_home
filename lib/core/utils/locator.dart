@@ -1,5 +1,5 @@
 
-import '../core/services/navigator_service.dart';
+import 'package:eco_home/core/services/navigator_service.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 
