@@ -2,17 +2,17 @@ import 'dart:math';
 
 import 'package:flutter/widgets.dart';
 
-class Resposive {
+class Responsive {
   double _height, _width, _diagonal;
 
-  Resposive(BuildContext context) {
+  Responsive(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     _height = size.height;
     _width = size.width;
     _diagonal = sqrt(pow(_height, 2) + pow(_width, 2));
   }
 
-  static Resposive of(BuildContext context) => Resposive(context);
+  static Responsive of(BuildContext context) => Responsive(context);
   
   double get height => _height;
   double get width => _width;
