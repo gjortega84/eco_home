@@ -1,5 +1,8 @@
 library home_view;
-
+import 'package:eco_home/core/utils/resposive.dart';
+import 'package:eco_home/widgets/graph_widget.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider_architecture/provider_architecture.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter/material.dart';

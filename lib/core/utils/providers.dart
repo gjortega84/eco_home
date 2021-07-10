@@ -1,8 +1,7 @@
+import 'package:eco_home/core/services/navigator_service.dart';
 import 'package:provider/single_child_widget.dart';
-
-import '../core/locator.dart';
-import '../core/services/navigator_service.dart';
 import 'package:provider/provider.dart';
+import 'locator.dart';
 
 class ProviderInjector {
   static List<SingleChildWidget> providers = [
